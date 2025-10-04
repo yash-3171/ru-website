@@ -1,0 +1,58 @@
+*{padding: 0;margin: 0;}
+
+header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 10px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    
+}
+.ru_logo{
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+}
+.logo{margin-left:3%;}
+
+.nav_bar{display: flex;
+        min-width: 1000px;
+        justify-content: space-between;
+        margin-right: 5%;
+}
+.nav_bar a{
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 600;
+    color: black;
+}
+.nav_bar a:hover{
+    color: blue;
+     border-bottom: 2px solid white;
+    }
+    h1{
+        background-color: black;
+        text-align: center;
+        color: white;
+    }
+form{
+    background-color: lightpink;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 8px solid black;
+    padding: 10px;
+}
+input{
+    background-color:azure;
+    margin-left: 5px;
+}
+button{
+    padding: 5px;
+    border-radius: 5px;
+}
+button:hover{
+    scale: 1.05;
+    
+}

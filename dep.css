@@ -1,0 +1,109 @@
+*{padding: 0;margin: 0;}
+
+header{
+    background-color: cadetblue;
+    display: flex;
+    border-bottom: 10px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    font-size: 1rem;
+}
+body{
+  overflow-x: hidden;
+}
+.ru_logo{
+    height: 9vh;
+    
+}
+.logo{margin-left:3%;}
+
+.nav_bar{display: flex;
+        gap: 7rem;
+}
+.nav_bar a{
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 600;
+    color: black;
+}
+.nav_bar a:hover{
+    color: blue;
+     border-bottom: 2px solid white;
+    }
+    
+ .main{
+    height: max-content;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 10px;
+    background-color: black;
+ }
+ .box{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: 29%;
+    box-sizing: border-box;
+    background-color: rgb(39, 57, 67);
+    gap: 2rem;
+    padding: 15px;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   box-shadow: 10px 10px 20px skyblue;
+
+ }
+ h3{
+   color: white;
+   text-transform: uppercase;
+ }
+ img{
+   border: 2px solid lightseagreen;
+   border-radius: 10px;
+   z-index: 1;
+
+ }
+ img:hover{
+   scale: 1.05;
+ }
+
+
+ .but1{
+   color: white;
+    width: 7vw;
+    padding: 10px;
+    background-color: black;
+    border-radius: 7px;
+    border: 1px solid black;
+    align-self: center;
+    text-transform: uppercase;
+    transition: 2s,2s,2s;
+    
+}
+.but1:hover{
+   scale: 1.1;
+   border: 2px solid lightseagreen;
+   box-shadow: 3px 3px 5px white;
+   transform: rotate(360deg);
+}
+@media screen and (max-width:400px) {
+
+    header{
+      background-color: lightpink;
+      width: 100vw;
+      font-size: .5rem;
+    }
+    .nav_bar{display: flex;
+        gap: 3rem;
+}
+    .ru_logo{
+      height: 4vh;
+    }
+    
+
+}
